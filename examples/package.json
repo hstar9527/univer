@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "@lit/react": "^1.0.8",
-        "@univerjs-pro/collaboration": "^0.10.6",
+        "@univerjs-pro/collaboration": "^0.15.2",
         "@univerjs/action-recorder": "workspace:*",
         "@univerjs/core": "workspace:*",
         "@univerjs/data-validation": "workspace:*",
