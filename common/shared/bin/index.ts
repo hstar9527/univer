@@ -5,6 +5,7 @@ import type { IBuildOptions } from '../vite';
 import process from 'node:process';
 import { build } from '../vite';
 
+//获取除了node和文件名之外的附加参数
 const argvs = process.argv.slice(2);
 
 const [command, ...args] = argvs;
