@@ -104,8 +104,8 @@ const entryPoints = [
     // homepage
     './src/main.tsx',
 
-    // sheets
     './src/sheets/main.ts',
+    './src/sheets-hxx-test/main.ts',
     './src/sheets/worker.ts',
 
     './src/sheets-no-worker/main.ts',

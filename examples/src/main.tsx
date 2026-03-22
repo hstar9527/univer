@@ -44,6 +44,9 @@ function Examples() {
         title: '📊 Sheets',
         href: './sheets/',
     }, {
+        title: '📊 Sheets-hxx-test',
+        href: './sheets-hxx-test/',
+    }, {
         title: '📝 Docs',
         href: './docs/',
     }, {

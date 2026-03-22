@@ -70,7 +70,6 @@ export class SheetRenderController extends RxDisposable implements IRenderModule
         @ICommandService private readonly _commandService: ICommandService,
         @Optional(ITelemetryService) private readonly _telemetryService?: ITelemetryService
     ) {
-        debugger;
         super();
         this._addNewRender();
         this._initRenderMetricSubscriber();
@@ -444,7 +443,7 @@ export class SheetRenderController extends RxDisposable implements IRenderModule
 
             // All mutations must be executed. Using reCalculate alone will not trigger a refresh.
             if (command.type === CommandType.MUTATION) {
-                this._markUnitDirty(command);
+                // this._markUnitDirty(command);
             }
         }));
     }
